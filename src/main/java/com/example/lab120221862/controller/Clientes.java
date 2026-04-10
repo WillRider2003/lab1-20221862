@@ -10,6 +10,10 @@ import org.springframework.web.bind.annotation.ResponseBody;
 public class Clientes {
     @RequestMapping(value = "/", method = RequestMethod.GET)
     @ResponseBody
+    public String nombreCliente(){
+        return "Nombre";
+    }
+    @ResponseBody
     public String formularioCliente(){
         return "Cliente / crear";
     }
