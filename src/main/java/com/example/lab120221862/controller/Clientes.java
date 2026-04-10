@@ -16,4 +16,5 @@ public class Clientes {
     @RequestMapping(value = "/guardar", method = RequestMethod.GET)
     public String guardarCliente(){
         return "redirect: /clientela";
+    }
 }
